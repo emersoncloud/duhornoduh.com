@@ -1,5 +1,9 @@
 <script>
 	let sayit = Math.random() < 0.5 ? 'duh' : 'noduh';
+
+	$: {
+		sayit;
+	}
 </script>
 
 <div>
